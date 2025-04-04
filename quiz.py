@@ -1,5 +1,5 @@
 import random
-
+#############
 class FlashCard:
     def __init__(self):
         self.__fruits = {'apple':'red', 'banana':'yellow','watermelon':'green','strawberries':'pink',
