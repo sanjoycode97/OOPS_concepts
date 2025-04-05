@@ -15,10 +15,12 @@ class FlashCard:
             else:
                 print('incorrect choice')
             try:
-                option=input('enter 0 for continue and 1 for quit')
+                option=int(input('enter 0 for continue and 1 for quit: '))
                 if option==1:
                     print('thanks for playing')
                     break
+                elif option == 0:
+                    pass
             except ValueError:
                 print('incorrect option exiting the quiz')
                 break
