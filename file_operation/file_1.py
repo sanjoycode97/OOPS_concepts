@@ -1,0 +1,12 @@
+f=open('student.log',mode='w')
+f.write('hellow world\n')
+f.write('name\n')
+f.write('roll\n')
+f.write('forest\n')
+f.close()
+print("written successfully")
+
+f=open('student.log',mode='r')
+data=f.read()
+print(data)
+f.close()
